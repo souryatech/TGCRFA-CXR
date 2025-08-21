@@ -1,0 +1,74 @@
+# Aortic enlargement
+a chest radiograph showing dilated aortic arch with widened mediastinum
+prominent aortic knob with unfolding of the thoracic aorta
+aortic enlargement with calcified atherosclerotic plaques
+
+# Atelectasis
+linear opacity with volume loss in the left lower lobe consistent with atelectasis
+elevated hemidiaphragm with subsegmental atelectasis
+plate-like atelectasis in the lung bases with compensatory hyperinflation
+
+# Calcification
+pulmonary granuloma with central calcification in the right upper lobe
+calcified pleural plaques along the diaphragmatic surfaces
+aortic arch calcification with atherosclerotic changes
+
+# Cardiomegaly
+cardiomegaly with cardiothoracic ratio exceeding 0.5
+enlarged cardiac silhouette with prominent left ventricular contour
+globular cardiac enlargement with pulmonary venous congestion
+
+# Consolidation
+lobar consolidation with air bronchograms in the right middle lobe
+patchy alveolar opacities consistent with bronchopneumonia
+round pneumonia in the left lower lobe of a pediatric patient
+
+# ILD
+reticulonodular pattern with basilar predominance suggestive of interstitial lung disease
+ground-glass opacities with subpleural sparing in fibrotic ILD
+traction bronchiectasis with honeycombing in advanced pulmonary fibrosis
+
+# Infiltration
+ill-defined perihilar infiltrates with bronchovascular distribution
+multifocal patchy opacities suggestive of viral pneumonitis
+asymmetric alveolar infiltrates without air bronchograms
+
+# Lung Opacity
+non-specific lung opacity in the right mid zone requiring further characterization
+focal asymmetric opacity without volume loss in the left upper lobe
+ill-defined pulmonary opacity with adjacent architectural distortion
+
+# Nodule/Mass
+a 12mm spiculated pulmonary nodule in the right upper lobe suspicious for malignancy
+well-circumscribed solitary pulmonary nodule with smooth margins
+a large hilar mass with adjacent lymphadenopathy
+
+# Other lesion
+non-specific pulmonary abnormality requiring correlation with clinical history
+atypical radiographic finding not fitting classical patterns
+incidental thoracic finding of uncertain significance
+
+# Pleural effusion
+blunting of the left costophrenic angle with meniscus sign
+large layering pleural effusion obscuring the hemidiaphragm
+bilateral pleural effusions with mediastinal shift
+
+# Pleural thickening
+diffuse pleural thickening with calcifications along the lateral chest wall
+apical pleural capping consistent with previous granulomatous disease
+focal pleural thickening adjacent to parenchymal scarring
+
+# Pneumothorax
+a thin visceral pleural line with absent lung markings in the right apex
+a large left-sided pneumothorax with mediastinal shift to the right
+subtle pneumothorax visible only on expiratory view
+
+# Pulmonary fibrosis
+basal-predominant reticulation with traction bronchiectasis
+honeycombing pattern in the lower lobes consistent with usual interstitial pneumonia
+coarse interstitial markings with subpleural fibrosis
+
+# No finding
+normal chest radiograph with clear lung fields and sharp costophrenic angles
+no acute cardiopulmonary abnormalities identified
+a technically adequate study without evidence of active disease
