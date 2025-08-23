@@ -138,21 +138,7 @@ class CLIPTEXT(nn.Module):
         if isinstance(texts, str):
             texts = [texts]
 
-        # sot_token = self._tokenizer.encoder["<|startoftext|>"]
-        # eot_token = self._tokenizer.encoder["<|endoftext|>"]
-        # # print(texts)
-        # all_tokens = [[sot_token] + self._tokenizer.encode(text['caption']) + [eot_token] for text in texts]
-        # result = torch.zeros(len(all_tokens), context_length, dtype=torch.long)
-
-        # for i, tokens in enumerate(all_tokens):
-        #     if len(tokens) > context_length:
-        #         st = torch.randint(
-        #             len(tokens) - context_length + 1, (1,))[0].item()
-        #         tokens = tokens[st: st + context_length]
-        #         # raise RuntimeError(f"Input {texts[i]} is too long for context length {context_length}")
-        #     result[i, :len(tokens)] = torch.tensor(tokens)
-
-        # return result
+        
         encoding = self._tokenizer(
             texts,
             padding="max_length",
@@ -185,20 +171,10 @@ class CLIPTEXT(nn.Module):
 def build_text_encoder(pretrain=True):
     text_encoder = CLIPTEXT()
     if pretrain:
-        # import clip
-        # pretrained_model, _ = clip.load("ViT-B/32", device='cpu')
-        # state_dict = pretrained_model.state_dict()
-        # to_delete_keys = ["logit_scale", "input_resolution", \
-        # "context_length", "vocab_size"] + \
-        #     [k for k in state_dict.keys() if k.startswith('visual.')]
-        # for k in to_delete_keys:
-        #     if k in state_dict:
-        #         del state_dict[k]
-        print('Loading pretrained CLIP')
-        # text_encoder.load_state_dict(state_dict)
+       
+        print('Loading pretrained BiomedCLIP')
         model, _ = create_model_from_pretrained(
             'hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224'
         )
         text_encoder = model.text
-    # import pdb; pdb.set_trace()
     return text_encoder
