@@ -41,14 +41,14 @@ sys.path.insert(0, 'third_party/CenterNet2/')
 from centernet.config import add_centernet_config
 
 sys.path.insert(0, 'third_party/Deformable-DETR')
-from codet.config import add_codet_config
-from codet.data.custom_build_augmentation import build_custom_augmentation
-from codet.data.custom_dataset_dataloader import  build_custom_train_loader
-from codet.data.custom_dataset_mapper import CustomDatasetMapper, DetrDatasetMapper
-from codet.custom_solver import build_custom_optimizer
-from codet.evaluation.oideval import OIDEvaluator
-from codet.evaluation.custom_coco_eval import CustomCOCOEvaluator
-from codet.modeling.utils import reset_cls_test
+from cxrcodet.config import add_codet_config
+from cxrcodet.data.custom_build_augmentation import build_custom_augmentation
+from cxrcodet.data.custom_dataset_dataloader import  build_custom_train_loader
+from cxrcodet.data.custom_dataset_mapper import CustomDatasetMapper, DetrDatasetMapper
+from cxrcodet.custom_solver import build_custom_optimizer
+from cxrcodet.evaluation.oideval import OIDEvaluator
+from cxrcodet.evaluation.custom_coco_eval import CustomCOCOEvaluator
+from cxrcodet.modeling.utils import reset_cls_test
 
 from tabulate import tabulate
 
