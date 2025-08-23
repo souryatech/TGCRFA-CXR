@@ -1,3 +1,3 @@
 # Investigating text-guided cross-region feature alignment for multimodal disease localization in Chest X-Ray images
 
-# Still transfering folders to repo
+# Currently transfering folders to repo
