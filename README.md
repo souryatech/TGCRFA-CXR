@@ -28,5 +28,21 @@ cd ../..
 pip install -r requirements.txt
 ```
 
+## Dataset Preparation
+Please download the train images from the [VinDr dataset](https://www.kaggle.com/datasets/xhlulu/vinbigdata-chest-xray-resized-png-1024x1024) and move the images to the images folder, placing the data in the following way:
+```
+datasets/
+        vindr/
+            annotations/
+            images/
+                4d...92.jpg,
+                ...
+```
+
+
+
+
+
+
 
 
