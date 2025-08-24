@@ -41,9 +41,10 @@ datasets/
                 
 ```
 
-## 
+## Model Download
+To download the cxr-codet model trained on VinDr, please download the config and the model file
 
-
+##
 
 
 
