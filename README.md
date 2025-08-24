@@ -33,11 +33,15 @@ Please download the train images from the [VinDr dataset](https://www.kaggle.com
 ```
 datasets/
         vindr/
+            zero
             annotations/
             images/
-                4d...92.jpg,
+                4d..92.jpg,
                 ...
+                
 ```
+
+## 
 
 
 
