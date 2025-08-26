@@ -44,7 +44,19 @@ datasets/
 ## Model Download
 To download the cxr-codet model trained on VinDr, please download the [config](configs/CXRCoDet_VindrCXR_R50_1x) and the [model](https://drive.google.com/file/d/1UVM_WEbCUV8LggFbNRL_igYhr6nMLpe8/view?usp=sharing)
 
-##
+## Train & Inference
+To train a config on the vindr dataset, please enter the following lines in your shell: 
+```shell script
+python train_net.py \
+    --config-file $CONFIG_PATH \
+    MODEL.ROI_HEADS.NUM_CLASSES 15 \
+```
+If you would like to change the pretrained model weights, please do so by editing MODEL_WEIGHTS in the corresponding config file. 
+
+To test a model on the vindr dataset, please entire the following lines in your shell: 
+```shell script
+python train_net.py --num-gpus $NUM_GPUS --config-file $CONFIG_PATH --eval-only MODEL.WEIGHTS $PRETRAINED_MODEL_WEIGHTS_PATH MODEL.ROI_HEADS.NUM_CLASSES 15
+```
 
 
 
