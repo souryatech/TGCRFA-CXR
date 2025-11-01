@@ -59,7 +59,7 @@ python train_net.py --num-gpus $NUM_GPUS --config-file $CONFIG_PATH --eval-only 
 
 
 ## Acknowledgements
-Our model is built on the amazing works: [CoDet](https://github.com/CVMI-Lab/CoDet?tab=readme-ov-file) and [BiomedCLIP](https://arxiv.org/pdf/2303.00915)
+This work's model is built on the amazing works: [CoDet](https://github.com/CVMI-Lab/CoDet?tab=readme-ov-file) and [BiomedCLIP](https://arxiv.org/pdf/2303.00915)
 
 
 
