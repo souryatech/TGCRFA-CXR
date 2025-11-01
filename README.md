@@ -2,7 +2,7 @@
 
 <img width="1621" height="808" alt="image" src="https://github.com/user-attachments/assets/9d26609f-5c4d-40ad-9a6e-d45808dc54f2" />
 
-> [Investigating text-guided cross-region feature alignment for multimodal disease localization in Chest X-Ray images](https://www.authorea.com/doi/full/10.22541/au.175580188.86506576/v1)
+> [Investigating text-guided cross-region feature alignment for multimodal disease localization in Chest X-Ray images](https://ajosr.org/papers/volume-3/issue-6/investigating-text-guided-cross-region-feature-alignment-for-multimodal-disease-localization-in-chest-x-ray-images)
 > 
 > Sourya Potti
 
