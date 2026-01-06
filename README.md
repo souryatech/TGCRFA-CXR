@@ -14,14 +14,14 @@ conda activate cxrcodet
 pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
 
 # Under working directory 
-git clone https://github.com/CVMI-Lab/CoDet.git
+git clone https://github.com/souryatech/TGCRFA-CXR.git
 pip install ninja
 pip install -v -U git+https://github.com/facebookresearch/xformers.git@7e05e2caaaf8060c1c6baadc2b04db02d5458a94
 git clone https://github.com/NVIDIA/apex && cd apex
 pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --global-option="--cpp_ext" --global-option="--cuda_ext" ./ && cd ..
 
 #Install additional dependencies
-cd CoDet/third_party/detectron2
+cd TGCRFA-CXR/third_party/detectron2
 pip install -e .
 cd ../..
 pip install -r requirements.txt
